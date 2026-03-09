@@ -10,9 +10,9 @@
 **Fokus:** Umgebung einrichten & Datei einlesen.
 
 - [x] Installiere Python & VS Code (falls nicht vorhanden).
-- [ ] Erstelle den Ordner `messfehler_detector`.
-- [ ] Erstelle darin die Unterordner `src` (für Code) und `daten` (für CSV-Dateien).
-- [ ] Erstelle eine Test-Datei `daten/test.csv` mit folgendem Inhalt:
+- [x] Erstelle den Ordner `messfehler_detector`.
+- [x] Erstelle darin die Unterordner `src` (für Code) und `daten` (für CSV-Dateien).
+- [x] Erstelle eine Test-Datei `daten/test.csv` mit folgendem Inhalt:
   ```csv
   Zeit,Wert
   1,10.5
@@ -21,7 +21,7 @@
   4,50.0
   5,10.9
   ```
-- [ ] **Programmieren:** Schreibe die Funktion `lade_csv` in `utils.py`.
+- [x] **Programmieren:** Schreibe die Funktion `lade_csv` in `utils.py`.
   - Ziel: Die Datei wird eingelesen und du hast zwei Listen: `x_werte` und `y_werte`.
   - Test: Drucke die Listen mit `print()` aus.
 
